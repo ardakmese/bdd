@@ -1,0 +1,16 @@
+Feature: Calculator Test Adding
+
+Scenario:Addition
+ Given Calculator app is run adding
+ When I input "2" and "3" to calculator
+ Then I get result "5"
+
+Scenario:Addition Negative
+ Given Calculator app is run adding
+ When I input "-2" and "3" to calculator
+ Then I get result "1"
+
+Scenario:Addition
+ Given Calculator app is run adding
+ When I input "2" and "3" to calculator
+ Then I get result "5"
